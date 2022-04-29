@@ -1,0 +1,48 @@
+.operator-select {
+	padding: 0 !important;
+    font-size: 10px !important;
+    color: #a45642 !important;
+    border-radius: 20px !important;
+    background-color: #fdf8f7 !important;
+    left:  -24px;
+}
+
+.operator-select fieldset {
+	border-color: #a45642;
+}
+
+.operator-select div {
+	padding: 2px 15px 2px 8px !important;
+}
+.operator-select svg {
+	right: 1.5px;
+	top: 1.5px;
+	font-size:  1.5em;
+}
+
+.and.operator-select {
+    color: #50858c !important;
+ 	background-color: #f7fafb !important;
+}
+.and.operator-select fieldset {
+	border-color: #50858c;
+}
+.rule-item {
+	padding-left: 20px;
+	padding-right: 100px;
+	position: relative;
+}
+.rule-item .builder-operator {
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+	display: none;
+}
+
+.rule-item:hover .builder-operator {
+	display: block;
+}
+
+.App .MuiGrid-item {
+	padding-top: 0 !important;
+}
