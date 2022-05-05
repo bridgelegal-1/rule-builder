@@ -1,4 +1,4 @@
-import Builder from './Builder';
+import Builder from './components/RuleBuilder';
 
 const c = [
   [

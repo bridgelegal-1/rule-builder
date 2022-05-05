@@ -7,7 +7,7 @@ import { Autocomplete, FormControlLabel, FormGroup, Radio, Switch, TextField, Se
 import { makeStyles } from '@material-ui/core/styles';
 
 import Context from './libs/context';
-import DatePicker from './DatePicker';
+import DatePicker from './DatePicker.jsx';
 
 const useFormControlLabelStyles = makeStyles((t) => {
     return {

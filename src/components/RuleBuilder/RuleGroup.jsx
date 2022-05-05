@@ -7,9 +7,9 @@ import { AddCircleOutline as AddIcon, RemoveCircleOutline as RemoveIcon, ShareOu
 import { Draggable, Container as DraggableContainer } from 'react-smooth-dnd';
 
 import Context from './libs/context';
-import Field from './Field';
-import Operator from './Operator';
-import Value from './Value';
+import Field from './Field.jsx';
+import Operator from './Operator.jsx';
+import Value from './Value.jsx';
 
 const actionIconStyles = (t) => ({
     actionButton: {
