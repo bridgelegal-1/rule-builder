@@ -1,8 +1,6 @@
 import React from 'react';
 import RuleBuilder from './components/RuleBuilder';
 
-window.react1 = React;
-
 export default RuleBuilder;
 
 // import React from 'react';

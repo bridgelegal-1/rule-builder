@@ -1,7 +1,6 @@
 {
-  "name": "rule-builder",
-  "version": "0.0.1",
-  "private": true,
+  "name": "mui-rule-builder",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "dependencies": {
     "@babel/plugin-proposal-do-expressions": "^7.16.7",

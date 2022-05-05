@@ -5,7 +5,6 @@
 
 # Node artifact files
 node_modules/
-dist/
 build/
 yarn.lock
 # Compiled Java class files
@@ -22,7 +21,6 @@ yarn.lock
 
 # Maven
 target/
-dist/
 
 # JetBrains IDE
 .idea/

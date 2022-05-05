@@ -1,3 +1,3 @@
-import RuleBuilder from './Builder.jsx';
+import RuleBuilder from './Builder';
 
 export default RuleBuilder;

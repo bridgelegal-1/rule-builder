@@ -24,10 +24,12 @@ module.exports = [
     plugins: [
       css(),
       nodeResolve(),
-      commonjs({ include: "**/node_modules/**" }),
       babel({
         exclude: "**/node_modules/**",
         babelHelpers: "bundled",
+      }),
+      commonjs({
+        include: "**/node_modules/**"
       }),
       terser(),
     ],
